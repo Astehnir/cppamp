@@ -71,3 +71,4 @@ else:
 if args.quiet == False and args.unit == None:
     raport = pd.DataFrame(listy, columns=['Nick','Miesiąc(e) wpłat(y)','Kwota wpłacona','Status'])
     raport.to_csv('raptor.csv', index=False)
+    
